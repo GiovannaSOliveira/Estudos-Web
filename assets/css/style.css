@@ -1,0 +1,87 @@
+/* Estilização geral*/
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 30px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 30px;
+}
+
+img{
+    margin: 30px;
+}
+
+/*Centralizar*/
+.center {
+   text-align: center;
+}
+
+/*Menu*/
+#menu li{
+    display: inline;
+    flex-wrap: nowrap;
+    padding: 20px;
+
+   }
+#menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+#menu li a:hover{
+
+}
+
+/*Padding Geral*/
+.pad-30{
+    padding: 30px;
+}
+
+/*FlexBox*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*Contato*/
+form{
+    color: rgb(255, 255, 255);
+}
+
+.flex-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+button:hover{
+    background-color: rgb(129, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
