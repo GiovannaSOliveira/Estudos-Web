@@ -67,9 +67,17 @@ img{
     justify-content: space-evenly;
 }
 
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+ }
+
 /*Contato*/
 form{
     color: rgb(255, 255, 255);
+    
 }
 
 .flex-contato{
@@ -80,8 +88,27 @@ form{
     padding-left: 50px;
 }
 
+button{
+    border-radius: 15px;
+    border: none;
+    width: 222px;
+}
 button:hover{
     background-color: rgb(129, 0, 0);
     color: white;
-    border: 1px solid white;
+    border: none;
+    border-radius: 15px;
+}
+
+/*footer*/
+
+.logos{
+    height: 50px;
+    width: 50px; 
+}
+
+.linha{
+    border-bottom: 4px solid white;
+    width: 100%;
+    padding-top: 60px;
 }
